@@ -4,7 +4,7 @@
   "description": "personal home page",
   "main": "index.js",
   "scripts": {
-    "lint": "standard --global graphql",
+    "lint": "standard",
     "start": "gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages --dist public --branch master"
@@ -20,6 +20,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chrisamaral/chrisamaral.github.io/issues"
+  },
+  "standard": {
+    "globals": [
+      "graphql"
+    ]
   },
   "homepage": "https://github.com/chrisamaral/chrisamaral.github.io#readme",
   "dependencies": {
