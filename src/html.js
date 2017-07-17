@@ -13,12 +13,9 @@ const HTML = ({headComponents, body, postBodyComponents}) => (
       <meta name='msapplication-TileImage' content='/ico/ms-icon-144x144.png' />
       <meta name='msapplication-TileColor' content='#000000' />
       <meta name='theme-color' content='#000000' />
-
-      {headComponents}
-
       {process.env.NODE_ENV === 'production' && (
-        <link rel='stylesheet' href='/styles.css' />
-      )}
+        <link rel='stylesheet' href='/styles.css' />)}
+      {headComponents}
     </head>
     <body>
       <div id='___gatsby' dangerouslySetInnerHTML={{__html: body}} />
