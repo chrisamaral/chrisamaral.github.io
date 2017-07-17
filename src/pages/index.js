@@ -3,7 +3,8 @@ import bg from '../../img/generic-me.png'
 import Page from '../Page'
 
 const articleStyle = {
-  backgroundImage: `url(${bg})`
+  backgroundImage: `url(${bg})`,
+  backgroundPosition: 'center'
 }
 
 const Anchor = props => (
@@ -12,9 +13,9 @@ const Anchor = props => (
 
 Anchor.displayName = 'Anchor'
 
-const Home = ({data}) => {
+const Home = ({data: {site}}) => {
   return (
-    <Page {...data}>
+    <Page site={site}>
       <article className='vh-100 dt w-100 tc bg-black white cover' style={articleStyle}>
         <section className='dtc v-mid'>
           <header className='white-50'>
