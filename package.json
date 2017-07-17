@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages --dist public --branch master"
   },
   "repository": {
     "type": "git",
