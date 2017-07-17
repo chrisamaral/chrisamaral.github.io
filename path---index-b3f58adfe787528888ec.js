@@ -1,0 +1,2 @@
+webpackJsonp([2],{"./node_modules/json-loader/index.js!./.cache/json/index.json":function(e,t){e.exports={data:{site:{siteMetadata:{title:"chris@maral"}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-b3f58adfe787528888ec.js.map
